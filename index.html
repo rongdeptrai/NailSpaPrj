@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Nail Salon & Spa</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header + Hero Combined -->
+    <header class="header-hero">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="Salon Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="book-now"><a href="#booking">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Welcome to Luxury Nails & Spa</h1>
+            <p>Experience the ultimate in nail care and relaxation</p>
+            <button class="cta-button">Book Appointment</button>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-spa"></i>
+                <h3>Manicure</h3>
+                <p>Classic, Gel, or Luxury options available</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shoe-prints"></i>
+                <h3>Pedicure</h3>
+                <p>Rejuvenate your feet with our spa treatments</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-magic"></i>
+                <h3>Nail Art</h3>
+                <p>Custom designs and premium finishes</p>
+            </div>
+        </div>
+    </section>
+    <!-- After Services Section -->
+    <section  class="booking-contact">
+        <div class="container">
+            <!-- Contact Info Column -->
+            <div class="contact-info"id="contact">
+                <h2>Contact Us</h2>
+                <div class="info-card">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Main Street, City, ST 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@luxurynails.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon - Sat: 9am - 7pm</p>
+                            <p>Sunday: 10am - 5pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Booking Form Column -->
+            <div class="booking-form" id="booking">
+                <h2>Book Appointment</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email" required>
+                    <div class="form-row">
+                        <input type="date" required>
+                        <input type="time" required>
+                    </div>
+                    <select required>
+                        <option value="">Select Service</option>
+                        <option value="manicure">Manicure</option>
+                        <option value="pedicure">Pedicure</option>
+                        <option value="nail-art">Nail Art</option>
+                    </select>
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@luxurynails.com</p>
+                <p><i class="fas fa-location-dot"></i> 123 Main Street, City, ST 12345</p>
+            </div>
+            <div class="hours">
+                <h3>Hours</h3>
+                <p>Monday - Saturday: 9am - 7pm</p>
+                <p>Sunday: 10am - 5pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Luxury Nails & Spa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
