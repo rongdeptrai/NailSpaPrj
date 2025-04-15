@@ -12,14 +12,17 @@
     <header class="header-hero">
         <nav class="navbar">
             <div class="logo">
-                <img src="./assets/images/logo.png" alt="Salon Logo">
+                <!-- <img src="./assets/images/logo.png" alt="Salon Logo"> -->
+                 <a>OMNIA SPA</a>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Locations</a></li>
+                <li><a href="#about">Group Events</a></li>
+                <li><a href="#contact">Gift Cards</a></li>
+                <li><a href="#contact">About</a></li>
+                <li><a href="#contact">Weddings</a></li>
                 <li class="book-now"><a href="#booking">Book Now</a></li>
             </ul>
             <div class="hamburger">
@@ -30,32 +33,107 @@
         </nav>
         
         <div class="hero-content">
-            <h1>Welcome to Luxury Nails & Spa</h1>
-            <p>Experience the ultimate in nail care and relaxation</p>
-            <button class="cta-button">Book Appointment</button>
+            <h1>SERVICES AT GRANITE RUN</h1>
+            <button class="cta-button">Book Now</button>
         </div>
     </header>
 
     <!-- Services Section -->
     <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fas fa-spa"></i>
-                <h3>Manicure</h3>
-                <p>Classic, Gel, or Luxury options available</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-shoe-prints"></i>
-                <h3>Pedicure</h3>
-                <p>Rejuvenate your feet with our spa treatments</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-magic"></i>
-                <h3>Nail Art</h3>
-                <p>Custom designs and premium finishes</p>
-            </div>
+        <h1>Full Service Menu & Pricing</h1>
+
+        <div class="tabs">
+          <div class="tab active" data-tab="essentials">Essentials</div>
+          <div class="tab" data-tab="special">Special Spa</div>
+          <div class="tab" data-tab="enhancements">Enhancements</div>
+          <div class="tab" data-tab="lashes">Lashes</div>
+          <div class="tab" data-tab="waxing">Waxing</div>
+          <div class="tab" data-tab="addons">Add-ons</div>
         </div>
+      
+        <!-- Essentials -->
+        <div class="service-category active" id="essentials">
+          <div class="service-section">
+            <h1>Manicures</h1>
+            <div class="services">
+              <div class="service">
+                <div class="service-title"><strong>Classic Manicure</strong><span>$27</span></div>
+                <div>Shape, Cuticle Trim, Massage, Hot Towel & Polish</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Gel Manicure</strong><span>$42</span></div>
+                <div>Gel Polish Removal, Shape, Cuticle Trim, Massage, Hot Towel & Gel Polish</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Princess Manicure (Age 10 and below)</strong><span>$19</span></div>
+                <div>Shape, Cuticle Push, Massage, Hot Towel & Polish</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Hot Stone Manicure</strong><span>$49</span></div>
+                <div>Shape, Cuticle Trim, Exfoliating Scrub, Massage, Hot Towel, Hot Stone Massage, Paraffin Dip & Polish</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Dazzle Dry Manicure</strong><span>$38</span></div>
+                <div>Non-toxic polish that dries quickly, lasts 7+ days, and promotes healthy nails.</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Express Manicure</strong><span>$24</span></div>
+                <div>Shape, Cuticle Trim & Polish</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Men’s Manicure</strong><span>$27</span></div>
+                <div>Cut Down, File, Cuticle Trim & Massage</div>
+              </div>
+              <div class="service">
+                <div class="service-title"><strong>Sport Manicure</strong><span>$43</span></div>
+                <div>Shape, Cuticle Trim, Exfoliating Scrub, Massage, Hot Towel, Paraffin Dip & Polish</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Other Categories (Empty Placeholder) -->
+        <div class="service-category" id="special">
+          <div class="service-section">
+            <h2>Special Spa</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      
+        <div class="service-category" id="enhancements">
+          <div class="service-section">
+            <h2>Enhancements</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      
+        <div class="service-category" id="lashes">
+          <div class="service-section">
+            <h2>Lashes</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      
+        <div class="service-category" id="waxing">
+          <div class="service-section">
+            <h2>Waxing</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      
+        <div class="service-category" id="addons">
+          <div class="service-section">
+            <h2>Add-ons</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+    
+        <h1>PEDICURES</h1>
+        <div class="services active">
+          <div class="service"><h3>Classic Pedicure <span class="price">$39</span></h3><p>Shape, Cuticle Trim, Callus Treatment, Massage, Hot Towel & Polish</p></div>
+          <div class="service"><h3>Gel Pedicure <span class="price">$57</span></h3><p>Gel Polish Removal, Shape, Cuticle Trim, Callus Treatment, Massage, Hot Towel & Gel Polish</p></div>
+          <div class="service"><h3>Hot Stone Pedicure <span class="price">$59</span></h3><p>Exfoliating Scrub, Hot Stone Massage, Paraffin Dip & Polish</p></div>
+        </div>       
     </section>
     <!-- After Services Section -->
     <section  class="booking-contact">

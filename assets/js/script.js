@@ -38,3 +38,20 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('scrolled');
     }
 });
+
+
+const tabs = document.querySelectorAll('.tab');
+const categories = document.querySelectorAll('.service-category');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+
+    const target = tab.dataset.tab;
+    categories.forEach(cat => {
+      cat.classList.remove('active');
+      if (cat.id === target) cat.classList.add('active');
+    });
+  });
+});
