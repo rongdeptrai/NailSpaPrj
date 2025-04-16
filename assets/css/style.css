@@ -284,6 +284,7 @@ h2 {
 .booking-section {
     padding: 60px 20px;
     background: white;
+    font-weight: 400;
   }
   
   .container {
@@ -292,6 +293,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    font-size: 20px;
   }
   
   .booking-right, .booking-left {
@@ -301,9 +303,10 @@ h2 {
   
   
   .booking-right h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    unicode-bidi: isolate;
   }
   
   .booking-right p {
@@ -342,10 +345,11 @@ h2 {
     background-color: #a87d70;
   }
   
-  .booking-left h3 {
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 15px;
+  .booking-left h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    unicode-bidi: isolate;
   }
   
   .booking-left p {
